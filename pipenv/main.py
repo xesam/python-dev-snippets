@@ -1,5 +1,7 @@
 import os
 
+print(os.environ["NAME"])
+
 print("\nPython path:\n{}".format("\n".join(os.sys.path)))
 
 import requests
